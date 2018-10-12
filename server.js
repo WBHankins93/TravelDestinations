@@ -8,6 +8,8 @@ require('./db/db');
 
 const destinationsController = require('./controllers/dC')
 
+app.use(bodyParser.urlencoded({extended: false}));
+app.use(methodOverride('_method'));
 app.use('/destinations', destinationsController);
 
 // app.get('/', (req,res) => {

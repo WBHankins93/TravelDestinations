@@ -1,0 +1,23 @@
+{
+  "name": "traveldestinations",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WBHankins93/TravelDestinations.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WBHankins93/TravelDestinations/issues"
+  },
+  "homepage": "https://github.com/WBHankins93/TravelDestinations#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}

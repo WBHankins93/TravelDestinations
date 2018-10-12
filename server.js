@@ -10,9 +10,9 @@ const destinationsController = require('./controllers/dC')
 
 app.use('/destinations', destinationsController);
 
-app.get('/', (req,res) => {
-  res.send('It is Aliveeeeeee');
-})
+// app.get('/', (req,res) => {
+//   res.send('It is Aliveeeeeee');
+// })
 
 
 app.listen(3000, () => {

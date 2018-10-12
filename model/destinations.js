@@ -1,6 +1,6 @@
-const mongoose = require('mongooose');
+const mongoose = require('mongoose');
 
-const DestinationsSchema = new mongoose.destinations({
+const destinationsSchema = new mongoose.Schema({
   name: {type: String, required: true},
   fly: {type: Boolean},
   climate: {type: String},

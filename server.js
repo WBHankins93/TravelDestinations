@@ -4,8 +4,11 @@ const app = express();
 const bodyParser = require('body-parser')
 const methodOverride = require('method-override')
 
-require('./db/db')
+require('./db/db');
 
+const destinationsController = require('./controllers/dC')
+
+app.use('/destinations', destinationsController);
 
 app.get('/', (req,res) => {
   res.send('It is Aliveeeeeee');
